@@ -6,6 +6,6 @@ logging:
 
 app:
   configurations:
-    username: uname
-    password: pwd
+    username: bstarke
+    password: badapassword
     url: url

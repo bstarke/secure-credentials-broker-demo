@@ -21,7 +21,7 @@ public class CredentialController {
     @GetMapping(path = "/test")
     public DemoResults testCredentials() {
         DemoResults results = new DemoResults();
-        DemoResults.saveResults(results, "sucessfully retrived credentials: ",
+        DemoResults.saveResults(results, "successfully retrieved credentials: ",
                 HashMap.ofEntries(
                         Map.entry("username", username),
                         Map.entry("password", password),
